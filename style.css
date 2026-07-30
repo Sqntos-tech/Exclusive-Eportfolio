@@ -11,6 +11,10 @@ li {
     list-style-type: none;
 }
 
+section {
+    background-color: rgb(245, 245, 245);
+}
+
 
 /*  
 
@@ -25,6 +29,7 @@ li {
     width: 100px;
     height: 75px;
     filter: invert(1);
+    background-color: rgb(245, 245, 245);
 }
 
 nav {
@@ -50,4 +55,21 @@ nav {
     font-size: 16px;
     color: #242424;
     font-weight: 700;
+}
+
+.fa-solid {
+    font-size: 20px;
+}
+
+
+/* 
+
+
+    LANDING PAGE
+
+
+*/
+
+#landing-page {
+    min-height: 100vh;
 }
