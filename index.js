@@ -1,6 +1,4 @@
-// template_g1gwxcj
-// service_qjlys9t
-// MgI_dKBbVqfUxZYhO
+
 
 function contact(event) {
     event.preventDefault();
@@ -11,9 +9,9 @@ function contact(event) {
     emailjs
        .sendForm(
         'service_qjlys9t',
-        'template_g1gwxcj',
+        'template_bd45u8c',
         event.target,
-        'MgI_dKBbVqfUxZYhO'
+        'pvYQQfnpQlRospKuq'
       ) .then(() => {
         loading.classList.remove("modal__overlay--visible")
         success.classList.add("modal__overlay--visible")
